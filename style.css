@@ -1,0 +1,89 @@
+.container {
+  width: 40%;
+  margin: 0 30%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.first-container input {
+  width: 300px;
+  border-radius: 4px;
+}
+
+.sec-container {
+  display: flex;
+  margin: 12px 0px;
+}
+
+.btn {
+  width: 80px;
+  margin: 0px 8px;
+  border-radius: 4px;
+  border: 1px solid #000;
+  padding: 4px;
+}
+
+#todo {
+  margin: 8px 0px;
+}
+
+#todo .task {
+  cursor: pointer;
+  margin: 4px 0;
+  background: #f2f2f2;
+  padding: 6px 8px;
+  border-radius: 6px;
+}
+#todo .task:hover {
+  background: #e0e0e0;
+}
+
+.task {
+  position: relative;
+  padding-right: 24px;
+  cursor: pointer;
+}
+
+.task-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+.task {
+  flex: 1;
+  cursor: pointer;
+}
+
+button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #4d48a5;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.delete {
+  background-color: #ff4949;
+}
+
+button.edit {
+  background-color: #ffa500;
+}
+
+input.edit-input {
+  flex: 1;
+  padding: 5px;
+  font-size: 1rem;
+}
