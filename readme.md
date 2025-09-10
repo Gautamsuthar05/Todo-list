@@ -47,7 +47,7 @@ A dynamic and responsive Todo List web app built with **HTML**, **CSS**, and **J
 ## 🙋‍♂️ Author
 
 **Gautam Suthar**  
-Self-taught full-stack developer | React, Node.js, MongoDB  
-📎 [LinkedIn](www.linkedin.com/in/gautam-suthar-613128261) 
+Self-taught full-stack developer | JS, React, Node.js, Express.js, MongoDB, Python
+
 
 
