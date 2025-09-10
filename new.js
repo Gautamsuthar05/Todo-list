@@ -2,7 +2,7 @@ document.querySelector(".add").addEventListener("click", () => {
   const val = document.querySelector("#task").value.trim();
   if (!val) return;
 
-  // ✅ Check: agar delete-all button abhi tak nahi bana
+  // ✅ Check: If delete all button is not available
   let delAllBtn = document.querySelector(".del-all");
   if (!delAllBtn) {
     delAllBtn = document.createElement("button");
